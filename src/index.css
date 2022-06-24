@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+@font-face {
+  font-family: F37Judge;
+  src: local('F37Judge') url(./assets/F37Judge-Bold.ttf)
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: F37Judge;
+  font-size: 18px;
+  line-height: 25px;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  background: #000
+}
