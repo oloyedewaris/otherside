@@ -1,0 +1,19 @@
+.logo_upright {
+  transform: scaleY(1);
+}
+
+.logo_inverted {
+  transform: scaleY(-1);
+}
+
+.main_full_page {
+  background-image: url(../../assets/images/bg.png);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}

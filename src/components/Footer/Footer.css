@@ -1,0 +1,33 @@
+.footer_info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.footer_item {
+  color: #bbb;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  font-family: Inter;
+}
+
+.footer_icon_con {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  width: 40%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.footer p {
+  text-align: center;
+  font-size: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}

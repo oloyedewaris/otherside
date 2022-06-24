@@ -16,8 +16,25 @@ const Navbar = () => {
 
   return (
     <div>
-      <SlideDrawer close={backdropClickHandler} show={drawerOpen} />
-      <Main show={drawerOpen} toggle={drawerToggleClickHandler} />
+      <div className='mobile_nav'>
+        <SlideDrawer close={backdropClickHandler} show={drawerOpen} />
+        <Main show={drawerOpen} toggle={drawerToggleClickHandler} />
+      </div>
+      <div className='desktop_nav'>
+        <div>
+          <span>THE WORLD</span>
+          <span>SDK</span>
+          <span>FAQ</span>
+          <span>EXPLORE</span>
+          <span>OBELISK</span>
+        </div>
+        <div>
+          <span>OTHERED:</span>
+          <span>BUY</span>
+          <span>CLAIM</span>
+          <button>CONNECT WALLET</button>
+        </div>
+      </div>
     </div>
   );
 };

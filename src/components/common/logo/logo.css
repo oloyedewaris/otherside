@@ -1,6 +1,5 @@
 .logo_svg {
   height: 40px;
-  transform: translate(0, 0) rotate(0) skewX(0) skewY(0) scaleX(1) scaleY(1);
   display: block;
 }
 
