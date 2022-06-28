@@ -60,7 +60,7 @@
 }
 
 .route_item {
-  color: #aaa;
+  color: #fff;
   text-decoration: none;
   width: 49%;
   height: 25%;
@@ -69,7 +69,7 @@
   align-items: center;
   text-transform: capitalize;
   font-size: 18px;
-  border-bottom: 1px solid #aaa;
+  border-bottom: 1px solid #fff;
   font-family: F37Judge;
   font-weight: normal;
   font-style: normal;
@@ -93,22 +93,77 @@
 
 .desktop_nav {
   margin-top: 30px;
-  display: visible;
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: row;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
-.desktop_nav span {
-  margin-right: 20px 
+.desktop_nav a {
+  /* margin-right: 12px; */
+  font-size: 12px;
+  text-decoration: none;
+  color: #ccc;
+}
+
+.desktop_nav a:hover {
+  border-bottom: 2px solid rgb(20, 139, 236);
+}
+
+.nav_active {
+  color: #fff !important;
+}
+
+.navbar_con {
+  background-color: transparent;
 }
 
 .desktop_nav button {
   background-color: transparent;
-  padding: 5px 10px;
-  color: #ccc;
-  border-color: #ccc;
+  width: 140px;
+  height: 2.25rem;
+  font-size: 12px;
+  color: #fff;
+  border: 1px solid #fff;
+  outline: none;
+  border-color: #fff;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  overflow-y: hidden;
+}
+
+.desktop_nav button:hover {
+  height: 9rem;
+}
+
+.desktop_nav button {
+  transition-property: height;
+  transition-timing-function: linear;
+  transition-duration: .4s;
+}
+
+.desktop_nav button span {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+  margin: auto;
+}
+
+.desktop_nav button span:last-child {
+  border: none;
+}
+
+.desktop_nav>div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .slider_con {

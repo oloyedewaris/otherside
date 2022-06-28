@@ -4,9 +4,14 @@
 
 .logo_inverted {
   transform: scaleY(-1);
+  transition: opacity;
+  transition-timing-function: ease-out;
+  transition-delay: 1s;
+  transition-duration: 1s;
+  border: none !important;
 }
 
-.main_full_page {
+.home_main {
   background-image: url(../../assets/images/bg.png);
   background-position: center;
   background-size: cover;
@@ -15,5 +20,5 @@
   align-items: center;
   flex-direction: column;
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
 }

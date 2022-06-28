@@ -1,0 +1,127 @@
+.sdk_main {
+  background-image: url(../../assets/images/0_Background.webp);
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.sdk_header {
+  font-family: F37Judge;
+  font-size: 120px;
+  text-transform: uppercase;
+  letter-spacing: .01em;
+  text-align: center;
+  line-height: .9;
+  margin-top: 30vh;
+}
+
+.sdk_form {
+  width: 40%;
+  margin: 100px auto;
+}
+
+.sdk_form fieldset {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: stretch;
+  border: none;
+  margin-bottom: 20px;
+  padding-left: 0;
+}
+
+.sdk_form label {
+  font-size: 18px;
+}
+
+.sdk_form input,
+.sdk_form textarea {
+  margin: 5px auto;
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+.sdk_form input {
+  height: 50px;
+}
+
+.sdk_form textarea {
+  height: 100px;
+}
+
+.sdk_form span {
+  font-size: 10px;
+}
+
+.sdk_form button[role='checkbox'] {
+  width: 25px;
+  height: 25px;
+}
+
+.sdk_checkbox_area {
+  display: flex;
+  align-items: baseline;
+  flex-direction: column;
+}
+
+.sdk_checkbox_area div {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  margin: 10px auto;
+}
+
+.sdk_checkbox_area div button {
+  margin-right: 15px;
+}
+
+.sdk_form>button {
+  width: 100%;
+  padding: 14px;
+  border-radius: 3px;
+  background-color: #152a9b;
+  color: #fff;
+  border: none;
+  font-size: 15px;
+  font-weight: '500';
+  cursor: pointer;
+}
+
+@media screen and (max-width: 967px) {
+  .sdk_form {
+    width: 50%;
+  }
+
+  .sdk_header {
+    font-size: 100px;
+  }
+}
+
+@media screen and (max-width: 676px) {
+  .sdk_form {
+    width: 70%;
+  }
+
+  .sdk_header {
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 476px) {
+  .sdk_form {
+    width: 85%;
+  }
+
+  .sdk_header {
+    font-size: 60px;
+  }
+}

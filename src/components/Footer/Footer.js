@@ -8,28 +8,30 @@ import './Footer.css';
 
 function Footer() {
   return (
-    <div className='footer'>
-      <div className='footer_icon_con' style={{ marginTop: 45, marginBottom: 20 }}>
-        <Yuga/>
-        <Improbable/>
-        <Animoca/>
+    <footer>
+      <div className='footer_icon_con'>
+        <Yuga />
+        <Improbable />
+        <Animoca />
       </div>
-      <div className='footer_icon_con' style={{ marginTop: 20, marginBottom: 35 }}>
-        <Twitter size={20} />
-        <GitHub size={20}/>
-        <YouTube size={20} />
+      <div className='footer_con'>
+        <div>
+          <Twitter className='footer_con_item' style={{fontSize: 20}} />
+          <GitHub className='footer_con_item' style={{fontSize: 20}} />
+          <YouTube className='footer_con_item' style={{fontSize: 20}} />
+        </div>
+        <div >
+          <span className='footer_con_item'>Terms and condition</span>
+          <span className='footer_con_item'>Privacy</span>
+          <span className='footer_con_item'>License</span>
+          <span className='footer_con_item'>Net Purchase Agreement</span>
+        </div>
+        <div className='copyright'>© 2022 YUGA LABS INC.</div>
       </div>
-      <div className='footer_info'>
-        <span className='footer_item'>Terms and condition</span>
-        <span className='footer_item'>Privacy</span>
-        <span className='footer_item'>License</span>
-        <span className='footer_item'>Net Purchase Agreement</span>
+      <div style={{ width: '100%', justifyContent: 'center', alignItems: 'center', display: 'flex' }}>
+        <Logo width={'90%'} height={'auto'} />
       </div>
-      <p>© 2022 YUGA LABS INC.</p>
-      <div style={{width: '100%', justifyContent: 'center', alignItems: 'center', display: 'flex'}}>
-        <Logo width={'360px'} height={'80px'} />
-      </div>
-    </div>
+    </footer>
   )
 }
 
