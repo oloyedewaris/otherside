@@ -37,6 +37,12 @@ footer {
   margin-left: 7px;
 }
 
+.footer_svg {
+  height: 40px;
+  width: auto;
+  color: #ccc;
+}
+
 .copyright {
   font-size: 8px;
 }
@@ -57,4 +63,8 @@ footer {
     margin-top: 20px;
     margin-bottom: 20px;
   }
+
+    .footer_svg {
+      height: 20px;
+    }
 }
