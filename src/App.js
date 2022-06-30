@@ -4,10 +4,10 @@ import { Switch, Route } from 'react-router-dom';
 import Slider from "./components/Navbar/Navbar";
 import Home from './pages/Home/Home';
 import Faq from './pages/Faq/Faq';
-import Obelisk from './pages/Obelisk';
+import Obelisk from './pages/Obelisk/Obelisk';
 import Sdk from './pages/Sdk/Sdk';
-import TheWorld from './pages/TheWorld';
-import Footer from './components/Footer/Footer';
+import TheWorld from './pages/TheWorld/TheWorld';
+import Footer from './components/Footer/Footer'; 
 
 function App() {
   return (
