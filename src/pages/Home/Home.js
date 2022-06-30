@@ -6,10 +6,10 @@ function Home() {
   return (
     <div className='home_main'>
       <div className='logo_upright'>
-        <Logo width={'80vw'} height={'auto'} />
+        <Logo width={'60vw'} height={'auto'} />
       </div>
       <div className='logo_inverted'>
-        <Logo width={'80vw'} height={'auto'} />
+        <Logo width={'60vw'} height={'auto'} />
       </div>
     </div>
   )

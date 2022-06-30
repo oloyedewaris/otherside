@@ -4,39 +4,115 @@
   background-size: 100px;
   display: flex;
   min-height: 100vh;
+  height: 100%;
   flex-direction: column;
   overflow: hidden;
   padding-top: 10rem;
+  padding-right: 5rem;
+  padding-left: 5rem;
 }
 
 .obelisk_header {
   font-family: F37Judge;
   font-size: 120px;
   text-transform: uppercase;
-  letter-spacing: .1em;
+  letter-spacing: .04em;
   text-align: center;
   line-height: .9;
-  justify-content: center;
 }
 
-.obelisk_main>div {
+.obelisk1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   min-height: 30vh;
 }
 
-.obelisk_main>div>p {
+.obelisk1>p {
   max-width: 400px;
   font-family: Coanda-Regular;
   margin: auto;
 }
 
-.obelisk_main>div>button {
+.obelisk1>button {
   padding: 10px 15px;
   border-radius: 5px;
   color: #fff;
   background-color: hsla(0, 0%, 100%, .1);
   margin: auto;
+  outline: none;
+}
 
+.obelisk2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 30vh;
+}
+
+.obelisk2>h1 {
+  font-family: F37Judge;
+  font-size: 80px;
+  text-transform: uppercase;
+  letter-spacing: .03em;
+  text-align: center;
+  line-height: .8;
+}
+
+.obelisk2>p {
+  max-width: 400px;
+  font-family: Coanda-Regular;
+  margin: auto;
+}
+
+.obelisk_second_sec {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.obelisk3 {
+  padding: 4%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 30vh;
+}
+
+.obelisk3>h1 {
+  font-family: F37Judge;
+  font-size: 80px;
+  text-transform: uppercase;
+  letter-spacing: .03em;
+  text-align: center;
+  line-height: .8;
+}
+
+.obelisk3>p {
+  max-width: 400px;
+  font-family: Coanda-Regular;
+  margin: auto;
+}
+
+@media screen and (max-width: 767px) {
+  .obelisk3 {
+    width: 80%;
+  }
+
+  .obelisk_header {
+    font-size: 100px;
+    letter-spacing: .03em;
+    line-height: .8;
+  }
+
+  .obelisk3>h1 {
+    font-size: 70px;
+    line-height: .7;
+  }
+
+  .obelisk2>h1 {
+    font-size: 70px;
+    line-height: .7;
+  }
 }

@@ -54,7 +54,7 @@ footer {
 
   .footer_con {
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
   }
 
   .footer_con>div:nth-child(2) {
