@@ -1,12 +1,11 @@
 .obelisk_main {
   background-image: url(../../assets/images/square-grid.png);
-  background-position: top;
-  background-size: 100px;
-  display: flex;
+  background-position: center;
+  background-size: 200px;
   min-height: 100vh;
   height: 100%;
+  display: flex;
   flex-direction: column;
-  overflow: hidden;
   padding-top: 10rem;
   padding-right: 5rem;
   padding-left: 5rem;
@@ -16,7 +15,7 @@
   font-family: F37Judge;
   font-size: 120px;
   text-transform: uppercase;
-  letter-spacing: .04em;
+  letter-spacing: .03em;
   text-align: center;
   line-height: .9;
 }
@@ -41,6 +40,7 @@
   background-color: hsla(0, 0%, 100%, .1);
   margin: auto;
   outline: none;
+  border: none;
 }
 
 .obelisk2 {
@@ -56,7 +56,7 @@
   text-transform: uppercase;
   letter-spacing: .03em;
   text-align: center;
-  line-height: .8;
+  line-height: .9;
 }
 
 .obelisk2>p {
@@ -86,7 +86,7 @@
   text-transform: uppercase;
   letter-spacing: .03em;
   text-align: center;
-  line-height: .8;
+  line-height: .9;
 }
 
 .obelisk3>p {
@@ -96,6 +96,11 @@
 }
 
 @media screen and (max-width: 767px) {
+  .obelisk_main {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
   .obelisk3 {
     width: 80%;
   }
@@ -103,16 +108,14 @@
   .obelisk_header {
     font-size: 100px;
     letter-spacing: .03em;
-    line-height: .8;
+    line-height: .9;
   }
 
   .obelisk3>h1 {
     font-size: 70px;
-    line-height: .7;
   }
 
   .obelisk2>h1 {
     font-size: 70px;
-    line-height: .7;
   }
 }

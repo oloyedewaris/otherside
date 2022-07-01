@@ -3,7 +3,9 @@
   min-height: 100vh;
   flex-direction: column;
   overflow: hidden;
-  padding-top: 15rem;
+  padding-top: 25vh;
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 
 .world_header {
@@ -35,5 +37,12 @@
   color: #fff;
   background-color: hsla(0, 0%, 100%, .1);
   margin: auto;
+  border: none;
+}
 
+@media screen and (max-width: 767px) {
+  .world_main {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
